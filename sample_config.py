@@ -1,4 +1,4 @@
-#Credut @Akborana1 and friends
+#Credit @Akborana1 and friends
 import os
 
 
