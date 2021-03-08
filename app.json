@@ -1,0 +1,40 @@
+{
+    "name": "TELEGRAPH MAKER",
+    "description": "A bot that can upload medias to Telegra.ph😎⚡",
+    "logo": "https://telegra.ph/file/704e03fa1216d5b6c6cbc.jpg",
+    "keywords": [
+        "Telegra.ph",
+        "Uploader",
+        "Telegram Bot",
+        "Benchamxd"
+    ],
+    "website": "",
+    "repository": "https://github.com/akborana/RAVAN-TELEGRAPH",
+    "success_url": "https://telegram.dog/lamao",
+    "env": {
+        "TG_BOT_TOKEN": {
+            "description": "You Telegram Bot Token from @BotFather",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "Your API Hash from my.telegram.org",
+            "value": ""
+        },
+        "APP_ID": {
+            "description": "Your API ID from my.telegram.org",
+            "value": ""
+        }
+    },
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
