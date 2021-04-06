@@ -73,18 +73,18 @@ async def home(client, message):
     ],
     [
         InlineKeyboardButton('Our Channel', url='http://telegram.me/akborana'),
-        InlineKeyboardButton('⚡D̸E̸V͎E͎L͢O͢P̶E̶R̶⚡ ', url='https://t.me/Rishisuperyo')
+        InlineKeyboardButton('⚡D̸E̸V͎E͎L͢O͢P̶E̶R̶⚡ ', url='https://t.me/akborana1')
     ]]
   reply_markup = InlineKeyboardMarkup(buttons)
   await Tgraph.send_message(
         chat_id=message.chat.id,
-        text="""<b>Halo RAVAN yaha hai dekh😶😉,
+        text="""<b>Hello I am  RAVAN 😶😉,
         
-im Ravan,a telegraph Uploader That Can Upload Photo, Video And Gif
+a telegraph Uploader That Can Upload Photo, Video And Gif
         
-Simply send me photo, video or gif to upload to Telegra.ph
+Simply send me photo, video or gif to upload to Telegraph
         
-Made With ⚡😎 By @akborana1""",
+Made BY ⚡😎 By @akborana1  """,
         reply_markup=reply_markup,
         parse_mode="html",
         reply_to_message_id=message.message_id
@@ -104,7 +104,7 @@ async def help(client, message):
         chat_id=message.chat.id,
         text="""⚡⚡⚡⚡⚡
         
-Just AREE BHAI MUJHE PLZ YAAR 5MB KA NICHE ,GIF YA PHOTO YA VID SEND KARNA OK MERE pro master @akborana1 K?😊⚡
+ BHAI MUJHE PLZ YAAR 5MB KA NICHE ,GIF YA PHOTO YA VID SEND KARNA OK MERE pro master @akborana1 K?😊⚡
 
 i'll upload it to telegra.ph and give you the direct link""",
         reply_markup=reply_markup,
