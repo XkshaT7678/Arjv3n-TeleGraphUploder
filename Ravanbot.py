@@ -75,18 +75,18 @@ async def home(client, message):
         InlineKeyboardButton('Our Channel', url='http://telegram.me/akborana'),
         InlineKeyboardButton('⚡D̸E̸V͎E͎L͢O͢P̶E̶R̶⚡ ', url='https://t.me/akborana1')
 ),InlineKeyboardButton
-        InlineKeyboardButton('MAKE YOUR OWN BOT', url='https://github.com/akborana/RAVAN-TELEGRAPH'),InlineKeyboardButton
+        InlineKeyboardButton('MAKE YOUR OWN BOT ', url='https://github.com/akborana/RAVAN-TELEGRAPH'),InlineKeyboardButton
     ]]
   reply_markup = InlineKeyboardMarkup(buttons)
   await Tgraph.send_message(
         chat_id=message.chat.id,
-        text="""<b>Hello I am  RAVAN 😶😉,
+        text="""<b>Hello I am  RAVAN 😈😉,
         
 a telegraph Uploader That Can Upload Photo, Video And Gif
         
 Simply send me photo, video or gif to upload to Telegraph
         
-Made BY ⚡😎 By @akborana1  """,
+Made BY ⚡😎  @AKBORANA1  """,
         reply_markup=reply_markup,
         parse_mode="html",
         reply_to_message_id=message.message_id
