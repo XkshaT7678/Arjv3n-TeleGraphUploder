@@ -76,7 +76,7 @@ async def home(client, message):
         InlineKeyboardButton('DEVELOPER', url='https://t.me/@Sanskari_balak_Ak')
     ]],
     [
-      InlineKeyboardButton("REPO", url="https://github.com/akborana/RAVAN-TELEGRAPH")]]
+      InlineKeyboardButton("REPO", url="https://github.com/akborana/RAVAN-TELEGRAPH")])
 
   reply_markup = InlineKeyboardMarkup(buttons)
   await Tgraph.send_message(
