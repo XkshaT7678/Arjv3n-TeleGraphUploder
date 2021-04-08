@@ -72,8 +72,9 @@ async def home(client, message):
         InlineKeyboardButton('Close', callback_data='close')
     ],
     [
-        InlineKeyboardButton('Our Channel', url='http://telegram.me/akborana'),
-        InlineKeyboardButton('⚡D̸E̸V͎E͎L͢O͢P̶E̶R̶⚡ ', url='https://t.me/akborana1')],
+        InlineKeyboardButton('Our Channel', url='http://telegram.me/abkorana'),
+        InlineKeyboardButton('DEVELOPER', url='https://t.me/@Sanskari_balak_Ak')
+    ]]
     [
 	  InlineKeyboardButton('REPO', url=' https://github.com/akborana/RAVAN-TELEGRAPH')]]
   reply_markup = InlineKeyboardMarkup(buttons)
