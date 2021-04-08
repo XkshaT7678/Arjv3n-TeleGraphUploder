@@ -73,7 +73,7 @@ async def home(client, message):
     ],
     [
         InlineKeyboardButton('Our Channel', url='http://telegram.me/abkorana'),
-        InlineKeyboardButton('DEVELOPER', url='https://t.me/@Sanskari_balak_Ak')
+        InlineKeyboardButton('DEVELOPER', url='https://t.me/AKBORANA1')
     ],
     [
         InlineKeyboardButton("REPO", url="https://github.com/akborana/RAVAN-TELEGRAPH")
