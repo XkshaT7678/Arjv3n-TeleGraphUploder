@@ -94,11 +94,12 @@ Made BY ⚡😎  @AKBORANA1  """,
 @Tgraph.on_message(filters.command(["help"]))
 async def help(client, message):
   buttons = [[
-        InlineKeyboardButton('Home', callback_data='home'),
+        InlineKeyboardButton('Help', callback_data='help'),
         InlineKeyboardButton('Close', callback_data='close')
     ],
     [
-        InlineKeyboardButton('Our Channel', url='http://telegram.me/akborana')
+        InlineKeyboardButton('Our Channel', url='http://telegram.me/akborana'),
+        InlineKeyboardButton('REPO', url=' https://github.com/akborana/RAVAN-TELEGRAPH')
     ]]
   reply_markup = InlineKeyboardMarkup(buttons)
   await Tgraph.send_message(
