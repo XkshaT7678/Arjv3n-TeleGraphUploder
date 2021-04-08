@@ -74,8 +74,11 @@ async def home(client, message):
     [
         InlineKeyboardButton('Our Channel', url='http://telegram.me/abkorana'),
         InlineKeyboardButton('DEVELOPER', url='https://t.me/@Sanskari_balak_Ak')
-    ]]
-    [[InlineKeyboardButton('REPO', url='https://github.com/akborana/RAVAN-TELEGRAPH')]]
+    ]],
+    [
+        InlineKeyboardButton("REPO", url='https://github.com/akborana/RAVAN-TELEGRAPH')],
+    ]
+
   reply_markup = InlineKeyboardMarkup(buttons)
   await Tgraph.send_message(
         chat_id=message.chat.id,
