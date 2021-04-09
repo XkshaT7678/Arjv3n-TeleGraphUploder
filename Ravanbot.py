@@ -25,11 +25,13 @@ async def uploadphoto(client, message):
   await msg.edit_text("`RAVAN HAVE DOWNLOADED THE PHOTO🥳🥳, sending Akay server to u ⚡`")
   try:
     tlink = upload_file(img_path)
+    await msg.edit_text(f"https://telegra.ph{tlink[0]}")   
+      os.remove(img_path)   
   except:
     await msg.edit_text("`somthing went wrong akay server slow please try again`") 
   else:
-    await msg.edit_text(f"https://telegra.ph{tlink[0]}")     
-    os.remove(img_path) 
+    await message.reply_text("May be your file format not supported, report error to Devs.")
+
 
 @Tgraph.on_message(filters.animation)
 async def uploadgif(client, message):
@@ -120,13 +122,12 @@ i'll upload it to telegra.ph and give you the direct link""",
 async def button(Tgraph, update):
       cb_data = update.data
       if "help" in cb_data:
-        await update.message.delete()
-        await help(Tgraph, update.message)
+        await update.message.edit_text("**Send me photo/gif/video to Upload them on telegra.ph**\n\n__My Dev:-> @akborana1__")
       elif "close" in cb_data:
         await update.message.delete() 
       elif "home" in cb_data:
-        await update.message.delete()
-        await home(Tgraph, update.message)
+        await update.message.edit_text("**Send me photo/gif/video to Upload them on telegra.ph**\n\n__My Dev:-> @akborana1__")
+      
 
 Tgraph.run()
 
