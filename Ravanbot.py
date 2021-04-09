@@ -122,11 +122,11 @@ i'll upload it to telegra.ph and give you the direct link""",
 async def button(Tgraph, update):
       cb_data = update.data
       if "help" in cb_data:
-        await update.message.edit_text("**Send me photo/gif/video to Upload them on telegra.ph**\n\n__My Dev:-> @akborana1__")
+        await update.message.edit_text(text="**Send me photo/gif/video to Upload them on telegra.ph**\n\n__My Dev:-> @akborana1__")
       elif "close" in cb_data:
         await update.message.delete() 
       elif "home" in cb_data:
-        await update.message.edit_text("**Send me photo/gif/video to Upload them on telegra.ph**\n\n__My Dev:-> @akborana1__")
+        await update.message.edit_text(text="**Send me photo/gif/video to Upload them on telegra.ph**\n\n__My Dev:-> @akborana1__")
       
 
 Tgraph.run()
