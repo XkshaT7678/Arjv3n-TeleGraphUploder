@@ -29,8 +29,6 @@ async def uploadphoto(client, message):
     os.remove(img_path)   
   except:
     await msg.edit_text("`somthing went wrong akay server slow please try again`") 
-  else:
-    await message.reply_text("May be your file format not supported, report error to Devs.")
 
 
 @Tgraph.on_message(filters.animation)
