@@ -90,7 +90,7 @@ a telegraph Uploader That Can Upload Photo, Video And Gif
         
 Simply send me photo, video or gif to upload to Telegraph
         
-Made BY ⚡😎  @AKBORANA1  """,
+Made BY ⚡😎  @AKBORANA1</b>""",
         reply_markup=reply_markup,
         parse_mode="html",
         reply_to_message_id=message.message_id
