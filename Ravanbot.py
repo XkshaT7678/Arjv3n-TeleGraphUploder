@@ -26,7 +26,7 @@ async def uploadphoto(client, message):
   try:
     tlink = upload_file(img_path)
     await msg.edit_text(f"https://telegra.ph{tlink[0]}")   
-      os.remove(img_path)   
+    os.remove(img_path)   
   except:
     await msg.edit_text("`somthing went wrong akay server slow please try again`") 
   else:
