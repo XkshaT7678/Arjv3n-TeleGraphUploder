@@ -1,5 +1,5 @@
 {
-    "name": "TELEGRAPH MAKER",
+    "name": "Arjv3n-TeleGraph",
     "description": "A bot that can upload medias to Telegra.ph😎⚡",
     "logo": "https://telegra.ph/file/704e03fa1216d5b6c6cbc.jpg",
     "keywords": [
@@ -9,8 +9,8 @@
         "Benchamxd"
     ],
     "website": "",
-    "repository": "https://github.com/akborana/RAVAN-TELEGRAPH",
-    "success_url": "https://telegram.dog/lamao",
+    "repository": "https://github.com/Akshat7678/Arjv3n-TeleGraphUploder",
+    "success_url": "https://telegram.dog/Arjv3n_Projectz",
     "env": {
         "TG_BOT_TOKEN": {
             "description": "You Telegram Bot Token from @BotFather",
