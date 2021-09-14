@@ -5,9 +5,9 @@
 
 #### 👨‍💻 Features: 
 ```
-- [X] You can upload photos to telegraph
-- [X] You can upload videos to telegraph
-- [X] You can upload Gifs to telegraph
+[-] You can upload photos to telegraph
+[-] You can upload videos to telegraph
+[-] You can upload Gifs to telegraph
 ```
 -  Don't forget to fork/star it 🌟
 
