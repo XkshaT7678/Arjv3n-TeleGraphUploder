@@ -3,7 +3,7 @@
 - Telegraph Uploader Bot📌
 - An telegraph uploader bot written on Python.
 
-👨‍💻Features: 
+#### 👨‍💻 Features: 
 ```
 - [X] You can upload photos to telegraph
 - [X] You can upload videos to telegraph
