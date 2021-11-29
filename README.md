@@ -15,4 +15,4 @@ I made new bot that will turn photo to telegraph link 😎
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/akshat7678/Arjv3n-TeleGraphUploder)
 
-# A Bot By [Arjv3n Projectz](https://t.me/Arjv3n_Projectz)
+# A Bot By [Akshat7678](https://telegram.dog/AKSHAT7678)
