@@ -1,1 +1,1 @@
-worker: python3 RavanBot.py
+worker: python3 Bot.py
