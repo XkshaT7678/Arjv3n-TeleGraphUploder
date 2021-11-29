@@ -18,7 +18,7 @@ Tgraph = Client(
 
 @Tgraph.on_message(filters.photo)
 async def uploadphoto(client, message):
-  msg = await message.reply_text("`Please wait.., I am Uploading it to my Server, Then I will send you..👨‍💻`")
+  msg = await message.reply_text("Please wait.., I am Uploading it to my Server, Then I will send you..👨‍💻")
   userid = str(message.chat.id)
   img_path = (f"./DOWNLOADS/{userid}.jpg")
   img_path = await client.download_media(message=message, file_name=img_path)
@@ -34,17 +34,17 @@ async def uploadphoto(client, message):
 @Tgraph.on_message(filters.animation)
 async def uploadgif(client, message):
   if(message.animation.file_size < 5242880):
-    msg = await message.reply_text("**Wait a Minute I am Uploding it to you..!** Until you join @Arjv3n_Projectz")
+    msg = await message.reply_text("**Wait a Minute I am Uploding it to you..!** Until you join @TheArjvps")
     userid = str(message.chat.id)
     gif_path = (f"./DOWNLOADS/{userid}.mp4")
     gif_path = await client.download_media(message=message, file_name=gif_path)
-    await msg.edit_text("**Ohk I Gif..** I am Uploding.. Join ~ @Arjv3n_Projectz")
+    await msg.edit_text("**Ohk I Gif..** I am Uploding.. Join ~ @TheArjvps")
     try:
       tlink = upload_file(gif_path)
       await msg.edit_text(f"https://telegra.ph{tlink[0]}")   
       os.remove(gif_path)   
     except:
-      await msg.edit_text("Getting **Error** in my server..! Forward this messageto @Arjv3n_ProjectzChat") 
+      await msg.edit_text("Getting **Error** in my server..! Forward this messageto @TheArjvpsChat") 
   else:
     await message.reply_text("This file is Too Big.. I need a File upto 5mbps only..!")
 
@@ -61,7 +61,7 @@ async def uploadvid(client, message):
       await msg.edit_text(f"https://telegra.ph{tlink[0]}")     
       os.remove(vid_path)   
     except:
-      await msg.edit_text("Please ask @Arjv3n_ProjectzChat") 
+      await msg.edit_text("Please ask @Akki_ThePro") 
   else:
     await message.reply_text("Size Should Be Less Than **5 mb**")
 
@@ -72,11 +72,11 @@ async def home(client, message):
         InlineKeyboardButton('Close', callback_data='close')
     ],
     [
-        InlineKeyboardButton('Our Channel', url='http://telegram.me/abkorana'),
-        InlineKeyboardButton('Made By↗️', url='https://t.me/Akki_ThePro')
+        InlineKeyboardButton('Our Channel', url='http://telegram.me/TheArjvps'),
+        InlineKeyboardButton('Made By', url='https://t.me/Akki_ThePro')
     ],
     [
-        InlineKeyboardButton("REPO↗️", url="https://github.com/Akshat7678/Arjv3n-TeleGraphUploder")
+        InlineKeyboardButton("Repository", url="https://github.com/Akshat7678/Arjv3n-TeleGraphUploder")
     ]]
 
   reply_markup = InlineKeyboardMarkup(buttons)
@@ -85,7 +85,6 @@ async def home(client, message):
         text="""<b>Hello, I Am Arjv3n,
         
 A telegraph Uploader That Can Upload Photo, Video And Gif
-        
 Simply send me photo, video or gif to upload to Telegraph
         
 Made By ~ @Akki_ThePro</b>""",
@@ -101,8 +100,8 @@ async def help(client, message):
         InlineKeyboardButton('Close', callback_data='close')
     ],
     [
-        InlineKeyboardButton('Our Channel↗️', url='http://telegram.me/Arjv3n_Projectz'),
-        InlineKeyboardButton('REPO↗️', url=' https://github.com/Akshat7678/Arjv3n-TeleGraphUploder')
+        InlineKeyboardButton('Our Channel', url='http://telegram.me/TheArjvps'),
+        InlineKeyboardButton('Repository, url=' https://github.com/Akshat7678/Arjv3n-TeleGraphUploder')
     ]]
   reply_markup = InlineKeyboardMarkup(buttons)
   await Tgraph.send_message(
